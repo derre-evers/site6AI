@@ -9,9 +9,49 @@
 
     <title>Trainingssessie 6AI - Met Bootstrap</title>
 </head>
-<body>
-
-
+<body class="bg-blue">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <section class="cards">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <pre class='code code-html'><label>Test</label><code>
+        &lt;div class="card" style="width: 18rem;"&gt;
+            &lt;img src="..." class="card-img-top" alt="..."&gt;
+            &lt;div class="card-body"&gt;
+                &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
+                &lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the
+                    card's content.&lt;/p&gt;
+                &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    </code></pre>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
