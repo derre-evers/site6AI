@@ -6,11 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 
     <title>Trainingssessie 6AI</title>
 </head>
-<body class="bg-blue">
-<h1>Trainingssessie</h1>
+<body class="bg-blue container">
+<h1>Trainingssessie 6AI</h1>
 <h3>Grid view</h3>
 <h3>Navbars</h3>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,8 +30,205 @@
         </div>
     </nav>
 <h3>Buttons</h3>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+<hr>
+<div class="row">
+  <div class="col-12 col-lg-6">
+     <button class="primary knop darken">Primary</button>
+     <button class="secondary knop">Outline Secondary</button>
+     <button class="success knop darken">Large Success</button>
+     <br>
+     <button class="danger knop darken">Small Danger</button>
+     <button class="light knop darken">Light</button>
+     <button class="warning knop darken">Block Warning</button>
+     <button class="info knop">Active Info</button>
+     <button class="dark knop">Disabled Dark</button>
+     <button class="link knop">Link</button>
+     <hr>
+     <pre class='code code-html border'><label>HTML</label><code>
+&lt;button type="button" class="primary knop darken"&gt;Primary&lt;/button&gt;
+&lt;button type="button" class="secondary knop"&gt;Outline Secondary&lt;/button&gt;
+&lt;button type="button" class="success knop darken"&gt;Large Success&lt;/button&gt;
+&lt;br&gt;
+&lt;button type="button" class="danger knop darken"&gt;Small Danger&lt;/button&gt;
+&lt;button type="button" class="light knop darken"&gt;Light&lt;/button&gt;
+&lt;button type="button" class="warning knop darken"&gt;Block Warning&lt;/button&gt;
+&lt;button type="button" class="info knop"&gt;Active Info&lt;/button&gt;
+&lt;button type="button" class="dark knop&gt;Disabled Dark&lt;/button&gt;
+&lt;button type="button" class="link knop"&gt;Link&lt;/button&gt;
+    </code></pre>
+     <pre class='code code-css border'><label>CSS</label><code>
+.knop{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: none;
+}
+
+.primary{
+    
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    
+}
+.darken:hover{
+    filter: brightness(90%);
+}
+.secondary{
+    background-color: #fff;
+    color: #6c757d;
+    border:1px solid #6c757d;
+}
+.secondary:hover{
+    background-color: gray;
+    color: white;
+}
+.success{
+    padding 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.danger{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.light{
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.warning{
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.info{
+    color: #fff;
+    background-color: #117a8b;
+    border-color: #10707f;
+}
+.dark{
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    filter: opacity(0.65);
+}
+.link{
+    font-weight: 400;
+    color: #007bff;
+    background-color: #fff;
+    border: none;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+    </code></pre>
+ </div>
+   <div class="col-12 col-lg-6">
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Outline Secondary</button>
+<button type="button" class="btn btn-success btn-lg">Large Success</button>
+<br>
+<button type="button" class="btn btn-danger btn-sm">Small Danger</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-warning btn-lg btn-block"> Block Warning</button>
+<button type="button" class="btn btn-info active">Active Info</button>
+<button type="button" class="btn btn-dark disabled">Disabled Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+<hr>
+<pre class='code code-html border'><label>HTML</label><code>
+&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button type="button" class="btn btn-outline-secondary"&gt;Outline Secondary&lt;/button&gt;
+&lt;button type="button" class="btn btn-success btn-lg"&gt;Large Success&lt;/button&gt;
+&lt;br&gt;
+&lt;button type="button" class="btn btn-danger btn-sm"&gt;Small Danger&lt;/button&gt;
+&lt;button type="button" class="btn btn-light"&gt;Light&lt;/button&gt;
+&lt;button type="button" class="btn btn-warning btn-lg btn-block">Block Warning&lt;/button&gt;
+&lt;button type="button" class="btn btn-info active"&gt;Active Info&lt;/button&gt;
+&lt;button type="button" class="btn btn-dark disabled&gt;>Disabled Dark&lt;/button&gt;
+&lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;
+    </code></pre></div> 
+ 
+</div>
 <h3>Cards</h3>
-<div class="container">
+<div class="row">
+<div class="col-12 col-lg-6">
+    <div class="kaart">
+        <img src=".." alt="...">
+        <div class="kaartText">
+            <h5>Card title</h5>
+            <p>Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <button>Go somewhere</button>
+        </div>
+    </div>
+    <hr>
+    <pre class='code code-html border'><label>HTML</label><code>
+    &lt;div class="kaart"&gt;
+        &lt;img src=".." alt="..."&gt;
+        &lt;div class="kaartText"&gt;
+            &lt;h5>Card title&lt;/h5&gt;
+            &lt;p>Some quick example text to build 
+                   on the card title and make up the bulk of the
+                    card's content.&lt;/p&gt;
+                    &lt;button>Go somewhere&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    </code></pre>
+    <pre class='code code-css border'><label>CSS</label><code>
+    .kaart{
+    width: 18rem;
+    border: 0.5px solid ;
+    border-color: gainsboro;
+    border-radius: 5px;
+}
+.kaartText{
+    margin: 20px;
+}
+.kaartText h5{
+    margin-bottom: 12px;
+}
+
+.kaartText button{
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff
+        ;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.kaartText button:hover{
+    background-color: #010bff;
+}
+    </code></pre>
+</div>
+<div class="container col-12 col-lg-6">
     <section class="cards">
         <div class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
@@ -43,17 +241,20 @@
         </div>
     </section>
     <hr>
-    <pre class='code code-html'><label>Test</label><code>
+    <pre class='code code-html border'><label>HTML</label><code>
         &lt;div class="card" style="width: 18rem;"&gt;
             &lt;img src="..." class="card-img-top" alt="..."&gt;
             &lt;div class="card-body"&gt;
                 &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
-                &lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the
+                &lt;p class="card-text"&gt;Some quick example text to build 
+                   on the card title and make up the bulk of the
                     card's content.&lt;/p&gt;
                 &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     </code></pre>
+</div>
+
 </div>
 <h3>Jumbotron</h3>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
