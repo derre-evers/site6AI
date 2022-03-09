@@ -1,59 +1,334 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="index.css">
+<!--
+	The7 by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Bootstrap - Trainingssessie</title>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/simplegrid.css">
+        <link rel="stylesheet" href="css/icomoon.css">
+        <link rel="stylesheet" href="css/lightcase.css">
+        <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
+        <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
+        <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
 
-    <title>Trainingssessie 6AI</title>
-</head>
-<body class="bg-blue container">
-<h1>Trainingssessie 6AI</h1>
-<h3>Grid view</h3>
-<h3>Navbars</h3>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled">Disabled</a>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/derre.css">
+        <link rel="stylesheet" href="css/zico.css">
+
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+           <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+           <!--[if lt IE 9]>
+             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+           <![endif]-->
+        </head>
+        <body id="home">
+            <!-- Header -->
+            <header id="top-header" class="header-home">
+                <div class="grid ">
+                    <div class="col-1-1">
+                        <div class="content">
+                            <div class="logo-wrap">
+                                <a href="#" class="logo"></a>
+                            </div>
+                            <nav class="navigation">
+                                <input type="checkbox" id="nav-button">
+                                <label for="nav-button" onclick></label>
+                                <ul class="nav-container">
+                                    <li><a href="#home" class="current">Home</a></li>
+                                    <li><a href="#team">Team</a></li>
+                                    <li><a href="#services">Wat is Bootstrap</a></li>
+                                    <li><a href="#quote">Waarom Bootstrap</a></li>
+                                    <li><a href="#work">Enkele Components</a></li>
+                                    <li><a href="#link">Handige Links</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End Header -->
+
+            <!-- Parallax Section -->
+            <div class="parallax-section parallax1">
+                <div class="grid grid-pad">
+                    <div class="col-1-1">
+                         <div class="content content-header" >
+                            <h2>Bootstrap - 6AI - 11/03/2022</h2>
+                            <p>trainingssessie over de algemene basis van Bootstrap. Het doel is de cursist wegwijs te maken met alternatieven op de standaard CSS taal.</p>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
-<h3>Buttons</h3>
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
-<button type="button" class="btn btn-link">Link</button>
-<hr>
-<div class="row">
-  <div class="col-12 col-lg-6">
-     <button class="primary knop darken">Primary</button>
-     <button class="secondary knop">Outline Secondary</button>
-     <button class="success knop darken">Large Success</button>
-     <br>
-     <button class="danger knop darken">Small Danger</button>
-     <button class="light knop darken">Light</button>
-     <button class="warning knop darken">Block Warning</button>
-     <button class="info knop">Active Info</button>
-     <button class="dark knop">Disabled Dark</button>
-     <button class="link knop">Link</button>
-     <hr>
-     <pre class='code code-html border'><label>HTML</label><code>
+            <!-- End Parallax Section -->
+
+            <!-- CurveUp -->
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+
+
+            <!-- Team Section -->
+            <div class="wrap team-wrap grey" id="team">
+                <div class="grid grid-pad">
+                    <div class="content" >
+                        <h2>Ons Team</h2>
+                        <div class="col-1-3" >
+                            <div class="content staff-content">
+                                <div class="recent-work staff-img">
+                                    <div class="img-wrap staff-img">
+                                        <img src="images/team/derre.jpg" alt="" style="object-fit: cover;">
+                                        <div class="team-social">
+                                            <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
+                                            <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
+                                            <a class="sl-gp" href="#"><i class="icon-github"></i></a>
+                                            <a class="sl-ln" href="#"><i class="icon-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="work-info staff-info">
+                                        <h5>Derre Evers</h5>
+                                        <span>Student</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1-3" >
+                            <div class="content staff-content">
+                                <div class="recent-work staff-img">
+                                    <div class="img-wrap staff-img">
+                                        <img src="images/team/jari.jpg" alt="" style="object-fit: cover;">
+                                        <div class="team-social">
+                                            <a class="sl-fb" href="#"><i class="icon-facebook"></i></a>
+                                            <a class="sl-tw" href="#"><i class="icon-twitter"></i></a>
+                                            <a class="sl-gp" href="#"><i class="icon-github"></i></a>
+                                            <a class="sl-ln" href="#"><i class="icon-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="work-info staff-info">
+                                        <h5>Jari Van de Vel</h5>
+                                        <span>Student</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-1-3" >
+                            <div class="content staff-content">
+                                <div class="recent-work staff-img">
+                                    <div class="img-wrap staff-img">
+                                        <img src="images/team/zico2.jpg" alt="" style="object-fit: cover;">
+                                        <div class="team-social">
+                                            <a class="sl-fb" href="https://www.facebook.com/zico.vanheuckelom"><i class="icon-facebook"></i></a>
+                                            <a class="sl-tw" href="https://twitter.com/Zico_VH"><i class="icon-twitter"></i></a>
+                                            <a class="sl-gp" href="https://github.com/ZicoVH"><i class="icon-github"></i></a>
+                                            <a class="sl-ln" href="https://www.linkedin.com/in/zico-vanheuckelom/"><i class="icon-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="work-info staff-info">
+                                        <h5>Zico Vanheuckelom</h5>
+                                        <span>Student</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Team Section -->
+
+            <!-- start Wat is bootstrap Section -->
+            <div class="wrap services-wrap" id="services">
+                <section class="grid grid-pad services">
+                    <h2>Wat is Bootstrap</h2>
+                    <div class="col-1-4 service-box service-1" >
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-heart4"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>Front-end development</h3>
+                                <p>De ontwikkeling van de grafische gebruikersinterfaces (UI) van een website, door het gebruik van HTML, CSS en JavaScript. Hierdoor kunnen gebruikers de website bekijken en ermee werken zonder enige kennis</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4 service-box service-2" >
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-star4"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>Gratis & open-source</h3>
+                                <p>Open-source software is software waarvan de broncode (sources) is gepubliceerd en vrij beschikbaar is voor iedereen. Iedereen kan en mag deze software kopiëren, aanpassen, aanvullen en verspreiden zonder kosten aan auteursrechten en of toeslagen.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4 service-box service-3">
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-display"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>CSS framework</h3>
+                                <p>Met een CSS framework heeft de gebruiker een compleet CSS stylesheet, en hoeft hij alleen nog maar de HTML te coderen met de juiste classes, structuur, en IDs om een webpagina op te zetten. Het framework heeft al klassen ingebouwd voor veel voorkomende website-elementen - voettekst, slider, navigatiebalk, hamburger menu, kolom-gebaseerde lay-outs, enz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-4 service-box service-4" >
+                        <div class="content">
+                            <div class="service-icon">
+                                <i class="circle-icon icon-user6"></i>
+                            </div>
+                            <div class="service-entry">
+                                <h3>Responsief & mobile-first</h3>
+                                <p>Een responsive website is reactief - het ontwerp beweegt vloeiend mee met de apparaten. Bij een mobile-first website wordt de mobiele website samen met de desktopsite gepland en ontworpen, waarbij proactief wijzigingen in het totale ontwerp worden aangebracht om ervoor te zorgen dat de mobiele ervaring net zo goed is als de desktopervaring.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End wat is bootstrap Section -->
+            
+            <!-- CurveDown -->
+            <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+            </svg>
+
+
+            <!-- Quotes Section -->
+            <div class="wrap services-wrap" id="quote" >
+                <section class="grid grid-pad">
+                    <div class="col-1-1 service-box cl-client-carousel-container">
+                        <div class="content">
+                            <h2>Waarom Bootstrap</h2>
+                            <div class="cl-client-carousel">
+
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                    <div class="quotes-icon">
+                                        <i class="icon-quotes-left"></i>
+                                    </div>
+                                    <p>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.</p>
+                                    <h4>-Bill Gates</h4>
+                                </div><!-- End of item -->
+
+                                <div class="item client-carousel-item"><!-- Start of item -->
+                                    <div class="quotes-icon">
+                                        <i class="icon-quotes-left"></i>
+                                    </div>
+                                    <p>Laziness: The most prominent characteristic of a developer</p>
+                                    <h4>-Random quote</h4>
+                                </div><!-- End of item -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- End Quotes Section -->
+
+            <!-- start components Section -->
+            <div class="wrap grey recent-wrap" id="work">
+                <h2>Enkele Componenten</h2>
+                <section class="grid grid-pad questions" style="text-align: center">
+                    <div class="section-center">
+                        <!-- start grid view -->
+                        <article class="question">
+                            <div class="question-title">
+                                <h3 class="m-auto">Grid View</h3>
+                                <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                                    <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                                </button>
+                            </div>
+                            <div class="question-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deleniti itaque minima quasi quisquam, tenetur voluptates? Cupiditate iste, veritatis. Animi beatae consequuntur cumque dicta doloremque excepturi exercitationem iusto labore libero magnam maiores maxime nam non odio, rem suscipit unde, ut voluptates. A aut enim eveniet iusto quas rerum tempore voluptas.     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad debitis ducimus nulla pariatur, porro quae quia quod ratione saepe?
+                                </p>
+                            </div>
+                        </article>
+                        <!-- end grid view -->
+
+                        <!-- start navbar -->
+                        <article class="question">
+                            <div class="question-title">
+                                <h3 class="m-auto">Navbar</h3>
+                                <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                                    <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                                </button>
+                            </div>
+                            <div class="question-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus alias architecto expedita, iste nisi non reiciendis repellendus sunt tempora?
+                                </p>
+                            </div>
+                        </article>
+                        <!-- end navbar -->
+
+                        <!-- start buttons -->
+                        <article class="question">
+                            <div class="question-title">
+                                <h3 class="m-auto">Buttons</h3>
+                                <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                                    <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                                </button>
+                            </div>
+                            <div class="question-text">
+                                <button type="button" class="btn btn-primary">Primary</button>
+                                <button type="button" class="btn btn-secondary">Secondary</button>
+                                <button type="button" class="btn btn-success">Success</button>
+                                <button type="button" class="btn btn-danger">Danger</button>
+                                <button type="button" class="btn btn-warning">Warning</button>
+                                <button type="button" class="btn btn-info">Info</button>
+                                <button type="button" class="btn btn-light">Light</button>
+                                <button type="button" class="btn btn-dark">Dark</button>
+                                <button type="button" class="btn btn-link">Link</button>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 eigenbutton">
+                                        <button class="primary knop darken">Primary</button>
+                                        <button class="secondary knop">Outline Secondary</button>
+                                        <button class="success knop darken">Large Success</button>
+                                        <br>
+                                        <button class="danger knop darken">Small Danger</button>
+                                        <button class="light knop darken">Light</button>
+                                        <button class="warning knop darken">Block Warning</button>
+                                        <button class="info knop">Active Info</button>
+                                        <button class="dark knop">Disabled Dark</button>
+                                        <button class="link knop">Link</button>
+                                        <hr>
+                                        <pre class='code code-html border bg-dark text-white' style="text-align: left"><label>HTML</label><code>
 &lt;button type="button" class="primary knop darken"&gt;Primary&lt;/button&gt;
 &lt;button type="button" class="secondary knop"&gt;Outline Secondary&lt;/button&gt;
 &lt;button type="button" class="success knop darken"&gt;Large Success&lt;/button&gt;
@@ -65,7 +340,7 @@
 &lt;button type="button" class="dark knop&gt;Disabled Dark&lt;/button&gt;
 &lt;button type="button" class="link knop"&gt;Link&lt;/button&gt;
     </code></pre>
-     <pre class='code code-css border'><label>CSS</label><code>
+                                        <pre class='code code-css border bg-dark text-white' style="text-align: left"><label>CSS</label><code>
 .knop{
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
@@ -74,11 +349,11 @@
 }
 
 .primary{
-    
+
     background-color: #007bff;
     color: white;
     border-color: #007bff;
-    
+
 }
 .darken:hover{
     filter: brightness(90%);
@@ -146,20 +421,20 @@
     text-decoration: underline;
 }
     </code></pre>
- </div>
-   <div class="col-12 col-lg-6">
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-outline-secondary">Outline Secondary</button>
-<button type="button" class="btn btn-success btn-lg">Large Success</button>
-<br>
-<button type="button" class="btn btn-danger btn-sm">Small Danger</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-warning btn-lg btn-block"> Block Warning</button>
-<button type="button" class="btn btn-info active">Active Info</button>
-<button type="button" class="btn btn-dark disabled">Disabled Dark</button>
-<button type="button" class="btn btn-link">Link</button>
-<hr>
-<pre class='code code-html border'><label>HTML</label><code>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <button type="button" class="btn btn-primary">Primary</button>
+                                        <button type="button" class="btn btn-outline-secondary">Outline Secondary</button>
+                                        <button type="button" class="btn btn-success btn-lg">Large Success</button>
+                                        <br>
+                                        <button type="button" class="btn btn-danger btn-sm">Small Danger</button>
+                                        <button type="button" class="btn btn-light">Light</button>
+                                        <button type="button" class="btn btn-warning btn-lg btn-block"> Block Warning</button>
+                                        <button type="button" class="btn btn-info active">Active Info</button>
+                                        <button type="button" class="btn btn-dark disabled">Disabled Dark</button>
+                                        <button type="button" class="btn btn-link">Link</button>
+                                        <hr>
+                                        <pre class='code code-html border bg-dark text-white' style="text-align: left"><label>HTML</label><code>
 &lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-secondary"&gt;Outline Secondary&lt;/button&gt;
 &lt;button type="button" class="btn btn-success btn-lg"&gt;Large Success&lt;/button&gt;
@@ -170,35 +445,52 @@
 &lt;button type="button" class="btn btn-info active"&gt;Active Info&lt;/button&gt;
 &lt;button type="button" class="btn btn-dark disabled&gt;>Disabled Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;
-    </code></pre></div> 
- 
-</div>
-<h3>Cards</h3>
-<div class="row">
-<div class="col-12 col-lg-6">
-    <div class="kaart">
-        <img src=".." alt="...">
-        <div class="kaartText">
-            <h5>Card title</h5>
-            <p>Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                    <button>Go somewhere</button>
-        </div>
-    </div>
-    <hr>
-    <pre class='code code-html border'><label>HTML</label><code>
+    </code></pre></div>
+
+                                </div>
+                            </div>
+                        </article>
+                        <!-- end buttons -->
+
+                        <!-- start cards -->
+                        <article class="question">
+                            <div class="question-title">
+                                <h3 class="m-auto">Cards</h3>
+                                <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                                    <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                                </button>
+                            </div>
+                            <div class="question-text">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="kaart" style="background-color: white;">
+                                            <img src=".." alt="...">
+                                            <div class="kaartText">
+                                                <h5>Card title</h5>
+                                                <p>Some quick example text to build on the card title and make up the bulk of the
+                                                    card's content.</p>
+                                                <button style="margin-top: 25px;">Go somewhere</button>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <pre class='code code-html border bg-dark text-white' style="text-align: left;"><label>HTML</label><code>
     &lt;div class="kaart"&gt;
         &lt;img src=".." alt="..."&gt;
         &lt;div class="kaartText"&gt;
             &lt;h5>Card title&lt;/h5&gt;
-            &lt;p>Some quick example text to build 
+            &lt;p>Some quick example text to build
                    on the card title and make up the bulk of the
                     card's content.&lt;/p&gt;
                     &lt;button>Go somewhere&lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     </code></pre>
-    <pre class='code code-css border'><label>CSS</label><code>
+                                        <pre class='code code-css border bg-dark text-white' style="text-align: left;"><label>CSS</label><code>
     .kaart{
     width: 18rem;
     border: 0.5px solid ;
@@ -227,36 +519,252 @@
     background-color: #010bff;
 }
     </code></pre>
-</div>
-<div class="container col-12 col-lg-6">
-    <section class="cards">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </section>
-    <hr>
-    <pre class='code code-html border'><label>HTML</label><code>
+                                    </div>
+                                    <div class="container col-12 col-lg-6">
+                                        <section class="cards">
+                                            <div class="card" style="width: 18rem;">
+                                                <img src="..." class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                                        card's content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <hr>
+                                        <pre class='code code-html border bg-dark text-white' style="text-align: left;"><label>HTML</label><code>
         &lt;div class="card" style="width: 18rem;"&gt;
             &lt;img src="..." class="card-img-top" alt="..."&gt;
             &lt;div class="card-body"&gt;
                 &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
-                &lt;p class="card-text"&gt;Some quick example text to build 
+                &lt;p class="card-text"&gt;Some quick example text to build
                    on the card title and make up the bulk of the
                     card's content.&lt;/p&gt;
                 &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     </code></pre>
-</div>
+                                    </div>
 
-</div>
-<h3>Jumbotron</h3>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- end cards -->
+
+                        <!-- start jumbotron -->
+                        <article class="question">
+                            <div class="question-title">
+                                <h3 class="m-auto">Jumbotrons</h3>
+                                <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                                    <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                                </button>
+                            </div>
+                            <div class="question-text bg-dark" >
+                                <div class="jumbotron" style="margin-left: 2rem; margin-right: 2rem;">
+                                    <h1 class="display-4">Hello, world!</h1>
+                                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                    <hr class="my-4">
+                                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                                </div>
+                                <hr style="background-color: white;">
+                                <div class="container">
+                                    <header class="pt-5">
+                                        <div class="jumbotron jumbotron-fluid text-light jumbotronheader">
+                                            <div class="infobord">
+                                                <h1 class="text-light">Hello, World!</h1>
+                                                <h2 class="lead text-light">Ontdek welke afstudeerrichtingen IT-Factory heeft!</h2>
+                                                <ul>
+                                                    <li>Application Development</li>
+                                                    <li>Artificial Intelligence</li>
+                                                    <li>Cloud & Cyber Security</li>
+                                                    <li>Internet of Things</li>
+                                                </ul>
+                                                <a
+                                                        class="btn btn-success btn-lg text-light"
+                                                        href="https://stronglabproject.netlify.app/zico_page1.html#"
+                                                        role="button"
+                                                        target="_blank"
+                                                        data-toggle="tooltip"
+                                                        data-placement="right"
+                                                        title="inschrijven"
+                                                >Jumbotron voorbeeld</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </header>
+                                </div>
+                            </div>
+
+
+
+                        </article>
+                        <!-- end jumbotron -->
+                    </div>
+                </section>
+
+            </div>
+            <!-- End components Section -->
+
+            <!-- CurveUp -->
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+
+
+
+             <!-- CurveDown -->
+            <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+            </svg>
+
+            <!-- handige links Section -->
+            <div class="wrap blog-grid grey" id="link">
+                <div class="grid grid-pad">
+                    <div class="content" >
+                        <h2>Handige links</h2>
+                        <ul>
+                            <li><a href="https://getbootstrap.com/">Officiële Bootstrap website</a></li>
+                            <li><a href="https://itf-web-advanced.netlify.app/">Thomas More - Webdesign Essentials cursus</a></li>
+                            <li><a href="https://itf-web-essentials.netlify.app/">Thomas More - Webdesign Advanced cursus</a></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End handige links Section -->
+
+            <!-- CurveUp -->
+            <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+            </svg>
+
+
+
+
+
+                <!-- Parallax Section -->
+                <div class="map" style="display: none;">
+                    <div class="wrap">
+                        <section id="cd-google-map">
+                            <div id="google-container"></div>
+                            <div id="cd-zoom-in"></div>
+                            <div id="cd-zoom-out"></div>
+                        </section>
+                    </div>
+                </div>
+                <!-- End Parallax Section -->
+
+
+
+                <!-- Contact Section -->
+                <div class="wrap contact" id="contact">
+                    <div class="grid grid-pad" >
+                        <h2>Contact</h2>
+                        <div class="col-1-2" >
+                        <div class="content address">
+                            <h3>Thomas More Kempen</h3>
+                            <address>
+                                <div>
+                                    <div class="box-icon">
+                                        <i class="icon-location"></i>
+                                    </div>
+                                    <span>Adres:</span>
+                                    <p>2440 Geel, Kleinhoefstraat 4</p>
+                                </div>
+                                <div>
+                                    <div class="box-icon">
+                                        <i class="icon-phone"></i>
+                                    </div>
+                                    <span>Telefoon:</span>
+                                    <p>014 56 23 10</p>
+                                </div>
+                            </address>
+                        </div>
+                    </div>
+                        <div class="col-1-2" >
+                            <div class="content address">
+                                <h3>IT-Factory</h3>
+                                <address>
+                                    <div>
+
+                                        <span>Discord:</span>
+                                        <p><a href="https://discord.thomasmore.be/">IT-Factory</a></p>
+
+                                    </div>
+                                    <div>
+                                        <span>Afstudeerrichtingen:</span>
+                                        <ul>
+                                            <li><a href="https://www.thomasmore.be/opleidingen/professionele-bachelor/toegepaste-informatica/application-development">Application Development</a></li>
+                                            <li><a href="https://www.thomasmore.be/opleidingen/professionele-bachelor/toegepaste-informatica/artificial-intelligence">Artificial Intelligence</a></li>
+                                            <li><a href="https://www.thomasmore.be/opleidingen/professionele-bachelor/elektronica-ict/cloud-and-cyber-security">Cloud & Cyber Security</a></li>
+                                            <li><a href="https://www.thomasmore.be/opleidingen/professionele-bachelor/elektronica-ict/internet-things">Internet of Things</a></li>
+                                        </ul>
+                                    </div>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Contact Section -->
+
+                <!-- CurveDown -->
+                <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+                </svg>
+
+                <!-- Footer -->
+                <footer class="wrap">
+
+                    <div class="social-footer">
+                        <div class="grid grid-pad">
+                            <div class="col-1-1" >
+                                <div class="content">
+                                    <div class="social-set">
+                                        <a  href="#0"><i class="icon-facebook"></i></a>
+                                        <a  href="#0"><i class="icon-twitter"></i></a>
+                                        <a  href="#0"><i class="icon-linkedin2"></i></a>
+                                        <a  href="#0"><i class="icon-dribbble4"></i></a>
+                                        <a  href="#0"><i class="icon-instagram"></i></a>
+                                    </div>
+                                    <p class="source-org copyright">© 2016 | All Rights Reserved Created By <a href="http://templatestock.co">Template Stock</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End Footer -->
+
+                <div class="loader-overlay">
+                    <div class="loader">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+
+                <!-- JS -->
+
+                <script src="js/jquery.js"></script>
+                <script src="js/main.js"></script>
+                <script src="js/mixitup.js"></script>
+                <script src="js/smoothscroll.js"></script>
+                <script src="js/jquery.nav.js"></script>
+                <script src="js/bootstrap.bundle.min.js"></script>
+                <script src="js/owl-carousel/owl.carousel.min.js"></script>
+                <script src="https://maps.googleapis.com/maps/api/js"></script>
+                <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+                <script src="js/jquery.counterup.min.js"></script>
+                <script src="js/lightcase.min.js"></script>
+            <script src="js/detail.js"></script>
+            </body>
+        </html>
