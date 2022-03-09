@@ -1,0 +1,19 @@
+
+.jumbotronheader {
+
+    background-image: url(../images/pexels-andrea-piacquadio-3769120.jpg);
+
+    background-size: cover;
+    background-position: center ;
+
+}
+
+.infobord {
+    position: relative;
+    border-radius: 15px;
+    padding: 3rem;
+    margin-left: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    /*filter: grayscale(100%);*/
+}
