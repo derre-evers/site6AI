@@ -463,7 +463,8 @@
                                 </div>
                             </div>
                         </nav>
-                        <div >
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
         <pre class='code code-html border bg-dark text-white'
              style="text-align: left"><label>HTML</label><code>
 &lt;div class="topnav" id="myTopnav"&gt;
@@ -530,8 +531,8 @@
   }
 }
                             </code></pre>
-<pre class='code code-js border bg-dark text-white'
-     style="text-align: left"><label>CSS</label><code>
+                            <pre class='code code-js border bg-dark text-white'
+                                 style="text-align: left"><label>CSS</label><code>
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -541,7 +542,9 @@ function myFunction() {
   }
 }
         </code></pre>
-                            <pre class='code code-html border bg-dark text-white'
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <pre class='code code-html border bg-dark text-white '
                                  style="text-align: left"><label>HTML</label><code>
 &lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
     &lt;a class="navbar-brand" href="#"&gt;Navbar&lt;/a&gt;
@@ -560,52 +563,53 @@ function myFunction() {
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/nav&gt;
-        </code></pre>
+                            </code></pre>
                         </div>
-                    </section>
                 </div>
-            </article>
-            <!-- end navbar -->
+    </section>
+</div>
+</article>
+<!-- end navbar -->
 
-            <!-- start buttons -->
-            <article class="question">
-                <div class="question-title">
-                    <h3 class="m-auto">Buttons</h3>
-                    <button type="button" class="question-btn">
+<!-- start buttons -->
+<article class="question">
+    <div class="question-title">
+        <h3 class="m-auto">Buttons</h3>
+        <button type="button" class="question-btn">
                             <span class="plus-icon">
                                 <i class="far fa-plus-square"></i>
                             </span>
-                        <span class="minus-icon">
+            <span class="minus-icon">
                                 <i class="far fa-minus-square"></i>
                             </span>
-                    </button>
-                </div>
-                <div class="question-text">
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-link">Link</button>
-                    <hr>
-                    <div class="row">
-                        <div class="col-12 col-lg-6 eigenbutton">
-                            <button class="primary knop darken">Primary</button>
-                            <button class="secondary knop">Outline Secondary</button>
-                            <button class="success knop darken">Large Success</button>
-                            <br>
-                            <button class="danger knop darken">Small Danger</button>
-                            <button class="light knop darken">Light</button>
-                            <button class="warning knop darken">Block Warning</button>
-                            <button class="info knop">Active Info</button>
-                            <button class="dark knop">Disabled Dark</button>
-                            <button class="link knop">Link</button>
-                            <hr>
-                            <pre class='code code-html border bg-dark text-white'
-                                 style="text-align: left"><label>HTML</label><code>
+        </button>
+    </div>
+    <div class="question-text">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-lg-6 eigenbutton">
+                <button class="primary knop darken">Primary</button>
+                <button class="secondary knop">Outline Secondary</button>
+                <button class="success knop darken">Large Success</button>
+                <br>
+                <button class="danger knop darken">Small Danger</button>
+                <button class="light knop darken">Light</button>
+                <button class="warning knop darken">Block Warning</button>
+                <button class="info knop">Active Info</button>
+                <button class="dark knop">Disabled Dark</button>
+                <button class="link knop">Link</button>
+                <hr>
+                <pre class='code code-html border bg-dark text-white'
+                     style="text-align: left"><label>HTML</label><code>
 &lt;button type="button" class="primary knop darken"&gt;Primary&lt;/button&gt;
 &lt;button type="button" class="secondary knop"&gt;Outline Secondary&lt;/button&gt;
 &lt;button type="button" class="success knop darken"&gt;Large Success&lt;/button&gt;
@@ -617,8 +621,8 @@ function myFunction() {
 &lt;button type="button" class="dark knop&gt;Disabled Dark&lt;/button&gt;
 &lt;button type="button" class="link knop"&gt;Link&lt;/button&gt;
     </code></pre>
-                            <pre class='code code-css border bg-dark text-white'
-                                 style="text-align: left"><label>CSS</label><code>
+                <pre class='code code-css border bg-dark text-white'
+                     style="text-align: left"><label>CSS</label><code>
 .knop{
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
@@ -699,21 +703,22 @@ function myFunction() {
     text-decoration: underline;
 }
     </code></pre>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <button type="button" class="btn btn-primary">Primary</button>
-                            <button type="button" class="btn btn-outline-secondary">Outline Secondary</button>
-                            <button type="button" class="btn btn-success btn-lg">Large Success</button>
-                            <br>
-                            <button type="button" class="btn btn-danger btn-sm">Small Danger</button>
-                            <button type="button" class="btn btn-light">Light</button>
-                            <button type="button" class="btn btn-warning btn-lg btn-block"> Block Warning</button>
-                            <button type="button" class="btn btn-info active">Active Info</button>
-                            <button type="button" class="btn btn-dark disabled">Disabled Dark</button>
-                            <button type="button" class="btn btn-link">Link</button>
-                            <hr>
-                            <pre class='code code-html border bg-dark text-white'
-                                 style="text-align: left"><label>HTML</label><code>
+
+            </div>
+            <div class="col-12 col-lg-6">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Outline Secondary</button>
+                <button type="button" class="btn btn-success btn-lg">Large Success</button>
+                <br>
+                <button type="button" class="btn btn-danger btn-sm">Small Danger</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-warning btn-lg btn-block"> Block Warning</button>
+                <button type="button" class="btn btn-info active">Active Info</button>
+                <button type="button" class="btn btn-dark disabled">Disabled Dark</button>
+                <button type="button" class="btn btn-link">Link</button>
+                <hr>
+                <pre class='code code-html border bg-dark text-white'
+                     style="text-align: left"><label>HTML</label><code>
 &lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
 &lt;button type="button" class="btn btn-outline-secondary"&gt;Outline Secondary&lt;/button&gt;
 &lt;button type="button" class="btn btn-success btn-lg"&gt;Large Success&lt;/button&gt;
@@ -725,41 +730,41 @@ function myFunction() {
 &lt;button type="button" class="btn btn-dark disabled&gt;>Disabled Dark&lt;/button&gt;
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;
     </code></pre>
-                        </div>
+            </div>
 
-                    </div>
-                </div>
-            </article>
-            <!-- end buttons -->
+        </div>
+    </div>
+</article>
+<!-- end buttons -->
 
-            <!-- start cards -->
-            <article class="question">
-                <div class="question-title">
-                    <h3 class="m-auto">Cards</h3>
-                    <button type="button" class="question-btn">
+<!-- start cards -->
+<article class="question">
+    <div class="question-title">
+        <h3 class="m-auto">Cards</h3>
+        <button type="button" class="question-btn">
                             <span class="plus-icon">
                                 <i class="far fa-plus-square"></i>
                             </span>
-                        <span class="minus-icon">
+            <span class="minus-icon">
                                 <i class="far fa-minus-square"></i>
                             </span>
-                    </button>
+        </button>
+    </div>
+    <div class="question-text">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="kaart" style="background-color: white;">
+                    <img src=".." alt="...">
+                    <div class="kaartText">
+                        <h5>Card title</h5>
+                        <p>Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <button style="margin-top: 25px;">Go somewhere</button>
+                    </div>
                 </div>
-                <div class="question-text">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="kaart" style="background-color: white;">
-                                <img src=".." alt="...">
-                                <div class="kaartText">
-                                    <h5>Card title</h5>
-                                    <p>Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
-                                    <button style="margin-top: 25px;">Go somewhere</button>
-                                </div>
-                            </div>
-                            <hr>
-                            <pre class='code code-html border bg-dark text-white'
-                                 style="text-align: left;"><label>HTML</label><code>
+                <hr>
+                <pre class='code code-html border bg-dark text-white'
+                     style="text-align: left;"><label>HTML</label><code>
     &lt;div class="kaart"&gt;
         &lt;img src=".." alt="..."&gt;
         &lt;div class="kaartText"&gt;
@@ -771,8 +776,8 @@ function myFunction() {
         &lt;/div&gt;
     &lt;/div&gt;
     </code></pre>
-                            <pre class='code code-css border bg-dark text-white'
-                                 style="text-align: left;"><label>CSS</label><code>
+                <pre class='code code-css border bg-dark text-white'
+                     style="text-align: left;"><label>CSS</label><code>
     .kaart{
     width: 18rem;
     border: 0.5px solid ;
@@ -801,23 +806,23 @@ function myFunction() {
     background-color: #010bff;
 }
     </code></pre>
+            </div>
+            <div class="container col-12 col-lg-6">
+                <section class="cards">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make
+                                up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                        <div class="container col-12 col-lg-6">
-                            <section class="cards">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the
-                                            card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </section>
-                            <hr>
-                            <pre class='code code-html border bg-dark text-white'
-                                 style="text-align: left;"><label>HTML</label><code>
+                    </div>
+                </section>
+                <hr>
+                <pre class='code code-html border bg-dark text-white'
+                     style="text-align: left;"><label>HTML</label><code>
         &lt;div class="card" style="width: 18rem;"&gt;
             &lt;img src="..." class="card-img-top" alt="..."&gt;
             &lt;div class="card-body"&gt;
@@ -829,38 +834,38 @@ function myFunction() {
             &lt;/div&gt;
         &lt;/div&gt;
     </code></pre>
-                        </div>
+            </div>
 
-                    </div>
-                </div>
-            </article>
-            <!-- end cards -->
+        </div>
+    </div>
+</article>
+<!-- end cards -->
 
-            <!-- start jumbotron -->
-            <article class="question">
-                <div class="question-title">
-                    <h3 class="m-auto">Jumbotrons</h3>
-                    <button type="button" class="question-btn">
+<!-- start jumbotron -->
+<article class="question">
+    <div class="question-title">
+        <h3 class="m-auto">Jumbotrons</h3>
+        <button type="button" class="question-btn">
                             <span class="plus-icon">
                                 <i class="far fa-plus-square"></i>
                             </span>
-                        <span class="minus-icon">
+            <span class="minus-icon">
                                 <i class="far fa-minus-square"></i>
                             </span>
-                    </button>
-                </div>
-                <div class="question-text bg-dark">
-                    <div class="jumbotron" style="margin-left: 2rem; margin-right: 2rem;">
-                        <h1 class="display-4">Hello, world!</h1>
-                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                            attention to featured content or information.</p>
-                        <hr class="my-4">
-                        <p>It uses utility classes for typography and spacing to space content out within the larger
-                            container.</p>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </div>
-                    <hr style="background-color: white;">
-                    <pre style="text-align: left;" class="bg-dark text-white"><code>
+        </button>
+    </div>
+    <div class="question-text bg-dark">
+        <div class="jumbotron" style="margin-left: 2rem; margin-right: 2rem;">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger
+                container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+        <hr style="background-color: white;">
+        <pre style="text-align: left;" class="bg-dark text-white"><code>
 &lt;div class="jumbotron" style="margin-left: 2rem; margin-right: 2rem;"&gt;
   &lt;h1 class="display-4"&gt;Hello, world!&lt;/h1&gt;
     &lt;p class="lead"&gt;This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.&lt;/p&gt;
@@ -868,41 +873,41 @@ function myFunction() {
     &lt;p&gt;It uses utility classes for typography and spacing to space content out within the larger container.&lt;/p&gt;
   &lt;a class="btn btn-primary btn-lg" href="#" role="button">Learn more&lt;/a&gt;
 &lt;/div&gt;</code></pre>
-                    <hr style="background-color: white;">
-                    <div class="container">
-                        <header class="pt-5">
-                            <div class="jumbotron jumbotron-fluid text-light jumbotronheader">
-                                <div class="infobord">
-                                    <h1 class="text-light">Hallo 6AI!</h1>
-                                    <h2 class="lead text-light">Ontdek welke afstudeerrichtingen IT-Factory heeft!</h2>
-                                    <ul>
-                                        <li>Application Development</li>
-                                        <li>Artificial Intelligence</li>
-                                        <li>Cloud & Cyber Security</li>
-                                        <li>Internet of Things</li>
-                                    </ul>
-                                    <a
-                                            class="btn btn-success btn-lg text-light"
-                                            href="https://stronglabproject.netlify.app/zico_page1.html#"
-                                            role="button"
-                                            target="_blank"
-                                            data-toggle="tooltip"
-                                            data-placement="right"
-                                            title="inschrijven"
-                                    >Jumbotron voorbeeld</a
-                                    >
-                                </div>
-                            </div>
-                        </header>
+        <hr style="background-color: white;">
+        <div class="container">
+            <header class="pt-5">
+                <div class="jumbotron jumbotron-fluid text-light jumbotronheader">
+                    <div class="infobord">
+                        <h1 class="text-light">Hallo 6AI!</h1>
+                        <h2 class="lead text-light">Ontdek welke afstudeerrichtingen IT-Factory heeft!</h2>
+                        <ul>
+                            <li>Application Development</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Cloud & Cyber Security</li>
+                            <li>Internet of Things</li>
+                        </ul>
+                        <a
+                                class="btn btn-success btn-lg text-light"
+                                href="https://stronglabproject.netlify.app/zico_page1.html#"
+                                role="button"
+                                target="_blank"
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="inschrijven"
+                        >Jumbotron voorbeeld</a
+                        >
                     </div>
-
                 </div>
-
-
-            </article>
-            <!-- end jumbotron -->
+            </header>
         </div>
-    </section>
+
+    </div>
+
+
+</article>
+<!-- end jumbotron -->
+</div>
+</section>
 
 </div>
 <!-- End components Section -->
